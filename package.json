@@ -1,0 +1,22 @@
+{
+  "name": "vanilapractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goo-gy/VanilaPractice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goo-gy/VanilaPractice/issues"
+  },
+  "homepage": "https://github.com/goo-gy/VanilaPractice#readme",
+  "dependencies": {
+    "serve": "^13.0.2"
+  }
+}
