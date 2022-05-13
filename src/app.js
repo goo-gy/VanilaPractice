@@ -10,7 +10,7 @@ export default function App({ $target }) {
     if (pathname === '/') {
       new Home({ $target }).render();
     }
-    if (pathname === '/page1') {
+    if (pathname.indexOf('/page1/') === 0) {
       new Page1({ $target }).render();
     } else if (pathname === '/page2') {
       new Page2({ $target }).render();
